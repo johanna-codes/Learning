@@ -1,4 +1,6 @@
+%%Euclidean Space
 clear all
+addpath('/media/johanna/HD1T/Toolbox/libsvm-3.20/matlab');
 X_train = randn(10,100);
 gt_train = sign(randn(1,100));
 

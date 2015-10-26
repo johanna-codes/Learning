@@ -1,4 +1,5 @@
-%%
+%%Riemannian Manifolds
+
 %http://www.nicta.com.au/wp-content/uploads/2015/02/JayasumanaHartleySalzmannLiHarandiCVPR13.pdf
 %http://www.uq.id.au/a.wiliem/papers/harandi_wacv2012.pdf
 %http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Jayasumana_Kernel_Methods_on_2013_CVPR_paper.pdf
