@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( human_detector )
+find_package( OpenCV REQUIRED)
+find_package( Armadillo REQUIRED)
+add_executable( human_detector.exe PeopleDetection.cpp )
+target_link_libraries( human_detector.exe ${OpenCV_LIBS} -O1 -larmadillo)
