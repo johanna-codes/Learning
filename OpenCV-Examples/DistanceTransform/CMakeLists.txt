@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project(weizmann)
+#set(CMAKE_BUILD_TYPE Release)
+find_package( OpenCV REQUIRED)
+find_package( Armadillo REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -pedantic -fopenmp")
+add_executable( my_run_dist_T.exe my_distTransform2.cpp)
+target_link_libraries( my_run_dist_T.exe ${OpenCV_LIBS} -larmadillo)
