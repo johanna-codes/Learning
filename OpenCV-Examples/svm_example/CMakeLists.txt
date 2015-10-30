@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( grassmann_clustering)
+find_package( OpenCV REQUIRED)
+add_executable( exec_svm.exe svm_example.cpp)
+target_link_libraries( exec_svm.exe ${OpenCV_LIBS})
