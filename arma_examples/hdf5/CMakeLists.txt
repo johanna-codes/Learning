@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(testing_hdf5)
+find_package (HDF5)
+find_package( Armadillo REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -pedantic -fopenmp")
+add_executable( run_hdf5.exe hdf5_example.cpp)
+target_link_libraries( run_hdf5.exe  -larmadillo -lhdf5)
