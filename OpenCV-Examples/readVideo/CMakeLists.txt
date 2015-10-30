@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( grassmann_clustering)
+find_package( OpenCV REQUIRED)
+find_package( Armadillo REQUIRED)
+add_executable( videoplayer.exe play_video.cpp )
+target_link_libraries( videoplayer.exe ${OpenCV_LIBS} -O1 -larmadillo)
