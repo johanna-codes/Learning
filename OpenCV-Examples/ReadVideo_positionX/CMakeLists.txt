@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(ReadingVideo)
+find_package( OpenCV REQUIRED)
+find_package( Armadillo REQUIRED)
+add_executable( run.exe read_video.cpp)
+target_link_libraries( run.exe ${OpenCV_LIBS} -O1 -larmadillo)

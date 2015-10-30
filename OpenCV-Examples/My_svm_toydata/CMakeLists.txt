@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(MultiSVM)
+find_package( OpenCV REQUIRED)
+find_package( Armadillo REQUIRED)
+add_executable( run_multi_svm.exe multi_svm.cpp)
+target_link_libraries( run_multi_svm.exe ${OpenCV_LIBS} -O2 -larmadillo)

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( grassmann_clustering)
+find_package( OpenCV REQUIRED)
+find_package( Armadillo REQUIRED)
+add_executable( optflow3.exe OpticalFlow3.cpp )
+target_link_libraries( optflow3.exe ${OpenCV_LIBS} -O1 -larmadillo)
