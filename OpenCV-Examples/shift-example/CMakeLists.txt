@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( grassmann_clustering)
+find_package( OpenCV REQUIRED)
+add_executable( run_shift_3.exe shift-image_3.cpp)
+target_link_libraries( run_shift_3.exe ${OpenCV_LIBS})
