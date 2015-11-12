@@ -21,7 +21,7 @@ int main(int argc, char** argv)
   
   //To read in Matlab
   //hinfo = hdf5info('A.h5');
-  //dset = hdf5read(hinfo.GroupHierarchy.Datasets(1))
+  //dset = hdf5read(hinfo.GroupHierarchy.Datasets(1));
   
   
   //To save in Matlab with name myfile.h5, the matrix generated with uint8(magic(5))

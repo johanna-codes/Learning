@@ -1,3 +1,4 @@
+//Taken from: http://dragonwood-blastevil.blogspot.com.au/2013/04/armadillo-to-other-data-format.html
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 #include <fstream>
